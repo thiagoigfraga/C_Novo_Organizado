@@ -1,7 +1,7 @@
 // O codigo funciona da seguinte forma:
-  - O funcionario coloca seu nome, seu salario fixo mensal e suas vendas em dinheiro.
-  - A parte "chata" porém simples é multiplicar a comissão por 0.15 para obter os 15%.
-  - O proximo passo é simplesmente juntar o salario fixo + 15% e gerar o salário com comissão.
+//  - O funcionario coloca seu nome, seu salario fixo mensal e suas vendas em dinheiro.
+//  - A parte "chata" porém simples é multiplicar a comissão por 0.15 para obter os 15%.
+//  - O proximo passo é simplesmente juntar o salario fixo + 15% e gerar o salário com comissão.
 
 
 #include <stdio.h>
