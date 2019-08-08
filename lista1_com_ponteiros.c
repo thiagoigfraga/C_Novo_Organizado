@@ -1,3 +1,5 @@
+//EXERCICIO1
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -27,5 +29,36 @@ int main()
         printf("O numero eh multiplo de 4");
     }
 
+    return 0;
+}
+
+//EXERCICIO2
+
+#include <stdio.h>
+
+void par_ou_impar(int *a, int *c)
+{
+    *c = *a % 2;
+}
+
+int main()
+{
+
+    int a, c;
+
+    printf("Digite o numero inteiro: \n");
+    scanf("%d", &a);
+
+    par_ou_impar(&a, &c );
+
+    if(c == 1)
+    {
+      printf("Nao eh par! \n");
+
+    }
+    else
+    {
+      printf("Eh par! \n");
+    }
     return 0;
 }
