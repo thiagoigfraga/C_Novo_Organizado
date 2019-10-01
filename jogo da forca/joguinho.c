@@ -3,7 +3,7 @@
 
 int main() {
   
-  //variaveis//
+  //variaveis mecanica//
 
     char palavrasecreta[20];
     sprintf(palavrasecreta, "MELANCIA");
@@ -15,9 +15,11 @@ int main() {
     int tentativas = 0;
   
   
+  
+  
   //jogo//
 
-    do {
+    do { // o loop do faz todo o processo e lá embaixo temos o while //
 
         for(int i = 0; i < strlen(palavrasecreta); i++) //inicia loop que varre toda a string//
         {
@@ -30,6 +32,7 @@ int main() {
                     break;
                 }
             }
+          
           
           
             if(achou) {
